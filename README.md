@@ -17,7 +17,11 @@
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[ssi_connector](ssi_connector/) | 14.0.5.25.0 |  | Connector
 
 [//]: # (end addons)
 
