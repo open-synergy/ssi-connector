@@ -14,7 +14,17 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: ssi_connector
+#: model:ir.ui.menu,name:ssi_connector.menu_connector_configuration
+msgid "Configuration"
+msgstr ""
+
+#. module: ssi_connector
 #: model:ir.module.category,name:ssi_connector.connector_module_category
 #: model:ir.ui.menu,name:ssi_connector.menu_root_connector
 msgid "Connector"
+msgstr ""
+
+#. module: ssi_connector
+#: model:ir.ui.menu,name:ssi_connector.menu_connector_reporting
+msgid "Reporting"
 msgstr ""
