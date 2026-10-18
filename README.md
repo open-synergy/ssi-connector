@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[ssi_connector](ssi_connector/) | 14.0.5.25.0 |  | Connector
+[ssi_connector](ssi_connector/) | 14.0.5.26.0 |  | Connector
 
 [//]: # (end addons)
 
