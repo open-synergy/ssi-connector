@@ -1,0 +1,52 @@
+scenarios:
+  - name: "Connector Configuration Container"
+    steps:
+      - step: "Get configuration menu"
+        action: "ref"
+        xml_id: "ssi_connector.menu_connector_configuration"
+        save_as: "config_menu"
+
+      - step: "Get root menu"
+        action: "ref"
+        xml_id: "ssi_connector.menu_root_connector"
+        save_as: "root_menu"
+
+      - step: "Assert configuration menu structure"
+        action: "assert"
+        target: "config_menu"
+        asserts:
+          parent_id:
+            type: "m2o"
+            expected: "REC: root_menu"
+          sequence:
+            type: "value"
+            expected: 999
+          action:
+            type: "value"
+            operator: "is_falsy"
+
+  - name: "Connector Reporting Container"
+    steps:
+      - step: "Get reporting menu"
+        action: "ref"
+        xml_id: "ssi_connector.menu_connector_reporting"
+        save_as: "report_menu"
+
+      - step: "Get root menu"
+        action: "ref"
+        xml_id: "ssi_connector.menu_root_connector"
+        save_as: "root_menu"
+
+      - step: "Assert reporting menu structure"
+        action: "assert"
+        target: "report_menu"
+        asserts:
+          parent_id:
+            type: "m2o"
+            expected: "REC: root_menu"
+          sequence:
+            type: "value"
+            expected: 998
+          action:
+            type: "value"
+            operator: "is_falsy"
