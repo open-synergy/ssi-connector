@@ -9,6 +9,18 @@
         web_icon="ssi_connector,static/description/icon.png"
     />
 
+<menuitem
+        id="menu_connector_reporting"
+        name="Reporting"
+        parent="menu_root_connector"
+        sequence="998"
+    />
 
+<menuitem
+        id="menu_connector_configuration"
+        name="Configuration"
+        parent="menu_root_connector"
+        sequence="999"
+    />
 
 </odoo>
